@@ -8,7 +8,7 @@ This project focuses on developing a comprehensive understanding of **risk analy
 
 ##  Problem Statement
 
-> Develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimize the risk of losing money while lending to customers.
+Develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimize the risk of losing money while lending to customers.
 
 ---
 
@@ -46,25 +46,21 @@ This project focuses on developing a comprehensive understanding of **risk analy
 Analysis revealed that private banks have a significantly higher number of clients compared to public or international banks.  
 **Significance**: Indicates greater exposure to customer risk in the private sector. Risk mitigation strategies and compliance monitoring may need to be more rigorous for these institutions.
 
----
 
 ### 2. High Loan Amounts Are Concentrated Among Specific Demographics  
 Segmentation of loan amounts by nationality and gender showed that certain demographic groups are associated with higher credit exposure.  
 **Significance**: Enables targeted credit risk assessment and informs policy decisions around lending thresholds or scoring models for specific groups.
 
----
 
 ### 3. Client Engagement Duration Affects Financial Behavior  
 A derived metric (`Engagement Days`) indicated that long-term clients generally have more consistent financial patterns across deposits and loans.  
 **Significance**: Helps in identifying trusted, low-risk clients versus new or short-term clients who may need stricter monitoring.
 
----
 
 ### 4. Clients with Low-to-Mid Incomes Form the Majority  
 Income bands were created using binning techniques, and it was observed that most clients fall under low to mid income categories.  
 **Significance**: Assists in designing inclusive, income-sensitive financial products while also applying risk buffers for lower-income segments.
 
----
 
 ### 5. Processing Fees Are a Notable Source of Revenue  
 By calculating estimated processing fees using DAX and applying them across loan products, it was found that they contribute significantly to bank revenue.  
@@ -87,7 +83,7 @@ By calculating estimated processing fees using DAX and applying them across loan
 ##  Repository Structure
 
 ```
-**Risk-Analysis-Banking**
+Risk-Analysis-Banking
 ├── Banking.xlsx            # Raw dataset
 ├── Banking Project.ipynb   # Jupyter Notebook for data cleaning, EDA
 ├── Banking Dashboard.pbix  # Power BI dashboard file
@@ -96,7 +92,7 @@ By calculating estimated processing fees using DAX and applying them across loan
 ```
 ---
 
-##  Results & Conclusion
+##  Conclusion
 
 This project demonstrates how **data-driven decision making** using analytical methods and BI tools can significantly enhance **risk assessment** in banking. The final Power BI dashboard delivers clear, interactive insights for understanding loan exposure, deposit behavior, and client segmentation.
 
