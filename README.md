@@ -76,7 +76,7 @@ By calculating estimated processing fees using DAX and applying them across loan
 - **Client Behavior**: Engagement days, fee structures, and processing fees
 - **Segmented Risk Analysis**: Credit card balances, savings vs checking behavior, and foreign currency metrics
 
-> Built using custom DAX measures and calculated columns (e.g., `SUMX`, `SWITCH`, `DATEDIFF`) for dynamic visualizations.
+Built using custom DAX measures and calculated columns (e.g., `SUMX`, `SWITCH`, `DATEDIFF`) for dynamic visualizations.
 
 ---
 
